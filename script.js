@@ -11,13 +11,6 @@ fetch('washi.json')
   // Let's make a variable to hold the body element
   // see also: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
   let body = document.querySelector('body')
-
-  _// Javascript can create new elements to add to the page.
-  // Let's add a logo dynamically, using the image src specified in our JSON data
-  let logo = document.createElement('img')
-  logo.src = json.logo
-  logo.classList.add('logo')  /* here Javascript adds the 'logo' css class   */
-  body.appendChild(logo)  /* here we are adding the newly created heading to the page */_
   
   // Now let's embed a title in our page dynamically 
   // Here we create an h1 element and put JSON  data inside.
