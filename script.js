@@ -36,7 +36,7 @@ fetch('washi.json')
     // add a CSS class "shoe" to each div
     div.classList.add('shoe')
     // set the CSS background based on our JSON data
-    div.style.background = shoe.background
+    div.style.background = washi.background
     
     // The template string below uses `backticks` instead of "quotes".
     // This allows us to embed variables inside the string
