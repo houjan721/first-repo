@@ -29,24 +29,24 @@ fetch('washi.json')
 
   // "forEach" lets us iterate over each shoe in our JSON data .
   // for each shoe, we build a template and add it to the page. 
-  json.washi.forEach( washi => {
+  json.washi.forEach( tape => {
     
     // Let's create a div to contain the shoe
     let div = document.createElement('div')
     // add a CSS class "shoe" to each div
-    div.classList.add('shoe')
+    div.classList.add('tape')
     // set the CSS background based on our JSON data
-    div.style.background = washi.background
+    div.style.background = tape.background
     
     // The template string below uses `backticks` instead of "quotes".
     // This allows us to embed variables inside the string
     // This is known as a "template literal"
     // see also: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals 
     let template = 
-      `<h4>${washi.name}</h4>
+      `<h4>${tape.name}</h4>
       <hr/>
-      <p>${washi.description}</p>`
-      <p>${washi.width}</p>`
+      <p>${tape.description}</p>`
+      <p>${tape.width}</p>`
     // place the template inside the shoe div
     div.innerHTML = template
     // add the  template to the shoe section
