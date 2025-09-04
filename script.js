@@ -43,7 +43,7 @@ fetch('washi.json')
     // This is known as a "template literal"
     // see also: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals 
     let template = 
-      `<h4>${tape.name}</h4>
+      `<h4>${washi.name}</h4>
       <hr/>
       <p>${washi.description}</p>`
       <p>${washi.width}</p>`
