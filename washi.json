@@ -1,0 +1,25 @@
+{
+  "title": "Washi Tape Collection",
+  _"logo": "shoe.svg",_
+  "subtitle": "My favourite tapes at the moment!",
+  "footer": "Created by Harold Sikkema for <i>Databases and Dynamic Data</i> at Sheridan College",
+  "tape": [
+    {
+      "name": "Yellow",
+      "width": "10mm",
+      "description": "Bright yellow, solid colour, Daiso",
+      "background": "#f5c516"
+    },
+    {
+      "name": "Strawberries",
+      "width": "12mm",
+      "description": "Die cut strawberry chain with transparent background, Mr.Pen",
+      "background": "#ba1600"
+    },
+    {
+      "name": "Green Valuters",
+      "width": "10mm",
+      "description": "Bright green solid colour tape with pole vaulters, Wonder Pens",
+      "background": "#71cf25"
+    },
+  ]
