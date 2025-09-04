@@ -29,7 +29,7 @@ fetch('washi.json')
 
   // "forEach" lets us iterate over each shoe in our JSON data .
   // for each shoe, we build a template and add it to the page. 
-  json.washi.forEach( tape => {
+  json.washi.forEach( washi => {
     
     // Let's create a div to contain the shoe
     let div = document.createElement('div')
@@ -45,8 +45,8 @@ fetch('washi.json')
     let template = 
       `<h4>${tape.name}</h4>
       <hr/>
-      <p>${tape.description}</p>`
-      <p>${tape.width}</p>`
+      <p>${washi.description}</p>`
+      <p>${washi.width}</p>`
     // place the template inside the shoe div
     div.innerHTML = template
     // add the  template to the shoe section
